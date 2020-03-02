@@ -3,11 +3,13 @@
 }
 
 body{
+    background-color: black;
     margin: 0;
     font-family: Arial;
 }
 
 .header{
+    color: white; font-family:Georgia, 'Times New Roman', Times, serif; text-align: justify; 
     text-align: center;
     padding: 32px;
 }

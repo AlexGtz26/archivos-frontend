@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
-  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>P&aacute;gina 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="../bootstrap/practica1/css/all.css" rel="stylesheet">
+    <link href="../bootstrap/practica1/css/estilos.css" rel="stylesheet">
+  </head>
 <body>
+  <div class="container">
 
     <h1>My First Heading</h1>
     <p>My First Paragraph</p>
@@ -19,22 +28,32 @@
     <p><h4>
     Tabla de datos
     </p></h4>
-    <table>
+    <table class="table table-bordered table-dark">
+      <thead>
+        <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Correo</th>
+      <th scope="col">Tel&eacute;fono</th>
+        </tr> 
+      </thead>
+     <tbody>
+       <tr>
+         <th scope="row">1</th>
+         <td>Karla</td>
+         <td><a href="mailto:karlamtz@gmail.com">karlamtz@gmail.com</a></td>
+         <td><a href="tel:8687985412">8687985412</a></td> 
+       </tr>
+     </tbody>
+  
+     <tbody>
       <tr>
-        <th>Nombre</th>  
-        <th>Correo</th>  
-        <th>Telefono</th>  
-      </tr>
-      <tr>
-        <td>Karla</td>  
-        <td><a href="mailto:karlamtz@gmail.com">karlamtz@gmail.com</a></td>  
-        <td><a href="tel:8687985412">8687985412</a></td>  
-      </tr>
-      <tr>
+        <th scope="row">2</th>
         <td>Carlos</td>
-        <td><a href="mailto:CarlosC@gmail.com">CarlosC@gmail.com</a></td>  
-        <td><a href="tel:8687109887">8687109897</a></td> 
+        <td><a href="mailto:CarlosC.com">CarlosC@gmail.com</a></td>
+        <td><a href="tel:8681567643">8681567643</a></td> 
       </tr>
+    </tbody>
     </table>
 
     <p><h2>
@@ -61,8 +80,10 @@
     Links    
     </p></h5>
 
-    <a href="pagina2.html"> pagina 2
+    <a class="btn btn-primary" href="pagina2.html"> p&aacute;gina 2
     <img src="img\abstract-beach-bright-clouds-301599.jpg" height="150" width="150"></a>
+
+  </div>
 
 
 </body>

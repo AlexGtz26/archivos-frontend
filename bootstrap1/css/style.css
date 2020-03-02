@@ -1,12 +1,23 @@
 .fuente1 {
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
 .fuente2{
+    color: white;
     font-family: 'Odibee Sans', cursive;
 }
 
 .fuente3{
+    color: white;
     font-family: 'Lacquer', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white; font-family:Georgia, 'Times New Roman', Times, serif; text-align: justify; 
 }
