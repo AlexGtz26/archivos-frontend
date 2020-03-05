@@ -34,6 +34,9 @@
         <div class="col-mb-1">
           <button class="btn btn-primary" id="btn-mult">X</button>
         </div>
+        <div class="col-mb-1">
+          <button class="btn btn-primary" id="btn-div">/</button>
+        </div>
       </div>
       <div class="form-row mb-1">
         <div class="col-mb-1">
@@ -185,6 +188,14 @@
           $("#resultado").val("");
         });
 
+        $("#btn-div").click(function(event) {
+          event.preventDefault();
+          let valor=$("#resultado").val();
+          numero=parseFloat(valor);
+          operacion=4;
+          $("#resultado").val("");
+        });
+
         $("#btn-igual").click(function(event) {
           event.preventDefault();
           let valor=$("#resultado").val();
@@ -204,7 +215,12 @@
             case 3:
              res=numero * parseFloat(valor);
              $("#resultado").val(res);
-              break;      
+              break;  
+
+            case 4:
+             res=numero / parseFloat(valor);
+             $("#resultado").val(res);
+              break;           
 
               
           }
